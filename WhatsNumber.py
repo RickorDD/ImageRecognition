@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 def whatNumIsThis(filePath):
 
     matchedAr = []
-    loadExamps = open('C:\\daten\\ki\pic\\numb\\train.txt','r').read()
+    loadExamps = open('train.txt','r').read()
     loadExamps = loadExamps.split('\n')
     
     i = Image.open(filePath)
